@@ -61,6 +61,14 @@
 .background-eclipse{
   margin: 50px;
   height: 40vh;
+  animation: confuse 2s infinite;
+}
+@keyframes confuse {
+  0% {transform: scale(1);}
+  25% {transform: scale(1.25);}
+  50% {transform: scale(1.5);}
+  75% {transform: scale(1.25);}
+  100% {transform: scale(1);}
 }
 
 .two{
@@ -96,5 +104,8 @@
   }
   .first-accordion{
     width: 100%;
+  }
+  .btn-fleche-open,.btn-fleche{
+    height: 3vh;
   }
 }
