@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="accordion">
+      <div className="first-accordion">
+        <h1 className="title">Conseil</h1>
+        <p className="desc">Vous accompagner dans la démarche sécurité</p>
+        <h6 className="notion">La maitrise des risques numériques passe par la mise œuvre d’une démarche décurité à la fois organisée et formalisée.</h6>
+      </div>
+    </section>
   );
 }
 
