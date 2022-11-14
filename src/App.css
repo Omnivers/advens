@@ -2,6 +2,10 @@
   font-family: roboto;
   src: url('./Polices/Roboto-Black.ttf');
 }
+@font-face {
+  font-family: robotoLight;
+  src: url('./Polices/Roboto-Light.ttf');
+}
 *{
   font-family: roboto;
 }
@@ -81,4 +85,16 @@
 .info{
   margin: 20px;
   color: #0777C2;
+}
+
+@media screen and (max-width: 768px) {
+  .No-phone,.background-eclipse{
+    display: none;
+  }
+  .articles{
+    flex-direction: column;
+  }
+  .first-accordion{
+    width: 100%;
+  }
 }
